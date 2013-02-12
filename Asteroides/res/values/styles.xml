@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -16,5 +16,12 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    <style name="TextoAsteroides" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextoAsteroides.Botones" parent="TextoAsteroides">
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="TemaAsteroides" parent="android:style/Theme.NoTitleBar"></style>
 
 </resources>

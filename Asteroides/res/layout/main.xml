@@ -17,29 +17,28 @@
         android:gravity="center"
         android:text="@string/NombreApp"
         android:textSize="25sp" />
-
     <Button
         android:id="@+id/button1"
+        style="@style/TextoAsteroides.Botones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Arrancar" />
-
     <Button
         android:id="@+id/button2"
+        style="@style/TextoAsteroides.Botones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Configurar" />
-
     <Button
         android:id="@+id/button3"
+        style="@style/TextoAsteroides.Botones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/AcercaDe" />
-
     <Button
         android:id="@+id/button4"
+        style="@style/TextoAsteroides.Botones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Salir" />
-
 </LinearLayout>
